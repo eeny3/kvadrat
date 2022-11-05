@@ -9,6 +9,7 @@ abstract class Palette {
   static const Color black2 = Color(0xFF1C161C);
   static const Color orange = Color(0xFFFFBD7B);
   static const Color grey = Color(0xFFD4D4D4);
+  static const Color biege = Color(0xFFFCF7F4);
 }
 
 abstract class Insets {
@@ -42,6 +43,7 @@ abstract class FontSizes {
   static const double s18 = 18;
   static const double s24 = 24;
   static const double s28 = 28;
+  static const double s32 = 32;
 }
 
 abstract class Fonts {
@@ -58,6 +60,11 @@ abstract class TextStyles {
   static const TextStyle numpadDigit = TextStyle(
       fontSize: FontSizes.s28,
       fontWeight: FontWeight.w400,
+  );
+
+  static const TextStyle headerBig = TextStyle(
+    fontSize: FontSizes.s32,
+    fontWeight: FontWeight.bold,
   );
 
   static const TextStyle gridDigit = TextStyle(

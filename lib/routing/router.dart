@@ -1,6 +1,6 @@
 import 'package:auto_route/annotations.dart';
 import 'package:kvadrat/pages/board_page/board_page.dart';
-import 'package:kvadrat/pages/login_page.dart';
+import 'package:kvadrat/pages/home_page/create_room_page.dart';
 import 'package:kvadrat/pages/post_game_page/post_game_page.dart';
 
 @MaterialAutoRouter(
